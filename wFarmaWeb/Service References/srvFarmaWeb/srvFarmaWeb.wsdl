@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="srvFarmaWeb" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:31105/srvFarmaWeb.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:31105/srvFarmaWeb.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:31105/srvFarmaWeb.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+      <xsd:import schemaLocation="http://localhost:31105/srvFarmaWeb.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/dllFarmaWeb.Medicamentos" />
+      <xsd:import schemaLocation="http://localhost:31105/srvFarmaWeb.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/dllFarmaWeb.Comun" />
+      <xsd:import schemaLocation="http://localhost:31105/srvFarmaWeb.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/wcfFarmaWeb.Message" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IsrvFarmaWeb_GetTblTipoInfoXIdEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTblTipoInfoXIdEstado" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_GetTblTipoInfoXIdEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTblTipoInfoXIdEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_GuardarInfoParamMedica_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarInfoParamMedica" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_GuardarInfoParamMedica_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarInfoParamMedicaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_CargarInfoParamMedicaXId_InputMessage">
+    <wsdl:part name="parameters" element="tns:CargarInfoParamMedicaXId" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_CargarInfoParamMedicaXId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CargarInfoParamMedicaXIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_GetTblEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTblEstado" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_GetTblEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTblEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_GetTblInfoParamMedXIdTipoInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTblInfoParamMedXIdTipoInfo" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_GetTblInfoParamMedXIdTipoInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTblInfoParamMedXIdTipoInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_GuardarInfoMedicamentoXId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarInfoMedicamentoXId" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_GuardarInfoMedicamentoXId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarInfoMedicamentoXIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_GetTblMedicamentoXStrNom_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTblMedicamentoXStrNom" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_GetTblMedicamentoXStrNom_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTblMedicamentoXStrNomResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_CargarInfoMedciamentoXIdMed_InputMessage">
+    <wsdl:part name="parameters" element="tns:CargarInfoMedciamentoXIdMed" />
+  </wsdl:message>
+  <wsdl:message name="IsrvFarmaWeb_CargarInfoMedciamentoXIdMed_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CargarInfoMedciamentoXIdMedResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IsrvFarmaWeb">
+    <wsdl:operation name="GetTblTipoInfoXIdEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvFarmaWeb/GetTblTipoInfoXIdEstado" message="tns:IsrvFarmaWeb_GetTblTipoInfoXIdEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvFarmaWeb/GetTblTipoInfoXIdEstadoResponse" message="tns:IsrvFarmaWeb_GetTblTipoInfoXIdEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuardarInfoParamMedica">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvFarmaWeb/GuardarInfoParamMedica" message="tns:IsrvFarmaWeb_GuardarInfoParamMedica_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvFarmaWeb/GuardarInfoParamMedicaResponse" message="tns:IsrvFarmaWeb_GuardarInfoParamMedica_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CargarInfoParamMedicaXId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvFarmaWeb/CargarInfoParamMedicaXId" message="tns:IsrvFarmaWeb_CargarInfoParamMedicaXId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvFarmaWeb/CargarInfoParamMedicaXIdResponse" message="tns:IsrvFarmaWeb_CargarInfoParamMedicaXId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTblEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvFarmaWeb/GetTblEstado" message="tns:IsrvFarmaWeb_GetTblEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvFarmaWeb/GetTblEstadoResponse" message="tns:IsrvFarmaWeb_GetTblEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTblInfoParamMedXIdTipoInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvFarmaWeb/GetTblInfoParamMedXIdTipoInfo" message="tns:IsrvFarmaWeb_GetTblInfoParamMedXIdTipoInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvFarmaWeb/GetTblInfoParamMedXIdTipoInfoResponse" message="tns:IsrvFarmaWeb_GetTblInfoParamMedXIdTipoInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuardarInfoMedicamentoXId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvFarmaWeb/GuardarInfoMedicamentoXId" message="tns:IsrvFarmaWeb_GuardarInfoMedicamentoXId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvFarmaWeb/GuardarInfoMedicamentoXIdResponse" message="tns:IsrvFarmaWeb_GuardarInfoMedicamentoXId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTblMedicamentoXStrNom">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvFarmaWeb/GetTblMedicamentoXStrNom" message="tns:IsrvFarmaWeb_GetTblMedicamentoXStrNom_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvFarmaWeb/GetTblMedicamentoXStrNomResponse" message="tns:IsrvFarmaWeb_GetTblMedicamentoXStrNom_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CargarInfoMedciamentoXIdMed">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvFarmaWeb/CargarInfoMedciamentoXIdMed" message="tns:IsrvFarmaWeb_CargarInfoMedciamentoXIdMed_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvFarmaWeb/CargarInfoMedciamentoXIdMedResponse" message="tns:IsrvFarmaWeb_CargarInfoMedciamentoXIdMed_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IsrvFarmaWeb" type="tns:IsrvFarmaWeb">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTblTipoInfoXIdEstado">
+      <soap:operation soapAction="http://tempuri.org/IsrvFarmaWeb/GetTblTipoInfoXIdEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuardarInfoParamMedica">
+      <soap:operation soapAction="http://tempuri.org/IsrvFarmaWeb/GuardarInfoParamMedica" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargarInfoParamMedicaXId">
+      <soap:operation soapAction="http://tempuri.org/IsrvFarmaWeb/CargarInfoParamMedicaXId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTblEstado">
+      <soap:operation soapAction="http://tempuri.org/IsrvFarmaWeb/GetTblEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTblInfoParamMedXIdTipoInfo">
+      <soap:operation soapAction="http://tempuri.org/IsrvFarmaWeb/GetTblInfoParamMedXIdTipoInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuardarInfoMedicamentoXId">
+      <soap:operation soapAction="http://tempuri.org/IsrvFarmaWeb/GuardarInfoMedicamentoXId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTblMedicamentoXStrNom">
+      <soap:operation soapAction="http://tempuri.org/IsrvFarmaWeb/GetTblMedicamentoXStrNom" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargarInfoMedciamentoXIdMed">
+      <soap:operation soapAction="http://tempuri.org/IsrvFarmaWeb/CargarInfoMedciamentoXIdMed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="srvFarmaWeb">
+    <wsdl:port name="BasicHttpBinding_IsrvFarmaWeb" binding="tns:BasicHttpBinding_IsrvFarmaWeb">
+      <soap:address location="http://localhost:31105/srvFarmaWeb.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

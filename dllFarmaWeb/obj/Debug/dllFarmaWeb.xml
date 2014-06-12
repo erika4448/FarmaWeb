@@ -1,0 +1,100 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+dllFarmaWeb
+</name>
+</assembly>
+<members>
+<member name="M:dllFarmaWeb.Medicamentos.clMedInfoParamMedica.cargarDrLector(System.Data.IDataReader)">
+	<summary>
+ METODO PARA CARGAR INFORMACION DEL LECTOR EN LAS VARIABLES DEL OBJETO
+ </summary>
+	<param name="parDrLector">LECTOR DE BASE DE DATOS QUE CONTIENE INFORMACION DEL OBJETO</param>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedInfoParamMedica.GuardarInfoParamMedica(System.Data.Common.DbTransaction)">
+	<summary>
+ METODO PARA GUARDAR INFORMACION PARAMETRICA DE MEDICAMENTOS EN EL SISTEMA
+ </summary>
+	<param name="parObjTrans">OBJETO PARA CONTROL LA TRANSACCION</param>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedInfoParamMedica.CargarInfoParamMedXId(System.Int32)">
+	<summary>
+ METODO PARA CARGAR INFORMACION PARAMETRICA POR ID
+ </summary>
+	<param name="parIdInfoPMed">IDENTIFICADOR DEL REGISTRO A CARGAR</param>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedInfoParamMedica.GetTblInfoParamMedXIdTipoInfo(System.Int32,System.Int32)">
+	<summary>
+ METODO PARA CAGAR INFORMACION PARAMETRICA PO ID_TIPO_INFO
+ </summary>
+	<param name="parIdTipoInfo">IDENTIFICADOR DEL TIPO DE INFORMACION A BUSCAR</param>
+	<returns>TABLA CON INFORMACION PARAMETRICA DE MEDICAMENTOS</returns>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedPresentacionMed.CargarDrLector(System.Data.IDataReader)">
+	<summary>
+ METODO PARA CARGAR INFORMACION DEL LECTOR EN LAS VARIABLES DEL OBJETO
+ </summary>
+	<param name="parDrLector">OBJETO LECTOR</param>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedPresentacionMed.GuardarInfoPresentacionMed(System.Data.Common.DbTransaction)">
+	<summary>
+ METODO PARA GUARDAR INFORMACION DE PRESENTACION MEDICAMENTO
+ </summary>
+	<param name="parObjTrans">OBJETO DE CONTROL DE TRANSACCION</param>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedPresentacionMed.CargarInfoPresentacionMedXIdPMed(System.Int32)">
+	<summary>
+ METODO PARA CARGAR INFORMACION DE PRESENTACION MEDICAMENTO POR ID
+ </summary>
+	<param name="parIdPresenMed">IDENTIFICADOR DEL OBJETO</param>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedPresentacionMed.GetTblPresentacionMedXIdMed(System.Int32)">
+	<summary>
+ METODOD PARA CARGAR PRESENTACIONES DE MEDICAMENTO POR ID_MEDICAMENTO
+ </summary>
+	<param name="parIdMedicamento">IDENTIFICADOR DEL MEDICAMENTO</param>
+	<returns>TABLA CON OBJETOS DE PRESENTACION MEDICAMENTO</returns>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedMedicamento.CargarDrLector(System.Data.IDataReader)">
+	<summary>
+ METODO PARA CARGAR EL OBJETO LECTOR EN LAS VARIABLES DEL OBJETO
+ </summary>
+	<param name="parDrLector">LECTOR CON INFORMACION DEL OBJETO</param>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedMedicamento.GuardarInfoMedicamentoXIdMed(System.Data.Common.DbTransaction)">
+	<summary>
+ METODO PARA GUARDAR INFORMACION DE MEDICAMENTO
+ </summary>
+	<param name="parObjTrans">OBJETO PARA CONTROLAR LA TRANSACCION</param>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedMedicamento.CargarInfoMedciamentoXIdMed(System.Int32)">
+	<summary>
+ METODO PARA CAGAR INFORMACION DE MEDICAMENTO POR ID
+ </summary>
+	<param name="parIdMedicamento">IDENTIFICADOR DEL REGISTRO DE MEDICAMENTO SOLICITADO</param>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedMedicamento.GetTblMedicamentoXStrNom(System.String,System.Int32)">
+	<summary>
+ METODO PARA CARGAR TABLA DE MEDICAMENTOS POR NOMBRE DE MEDICAMENTO DE CONSULTA
+ </summary>
+	<param name="parStrNombre">NOMBRE DEL MEDICAMENTO</param>
+	<param name="parIdUsuario">USUARIO DROGUERIA QUE REALIZA LA CONSULTA</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:dllFarmaWeb.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:dllFarmaWeb.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:dllFarmaWeb.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

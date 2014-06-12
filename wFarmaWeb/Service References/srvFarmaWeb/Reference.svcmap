@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="97055b1d-c583-4ee7-8945-16cd9dfefa09" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:31105/srvFarmaWeb.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvFarmaWeb.xsd" MetadataType="Schema" ID="2674fb10-340b-4b8f-b594-d5a35ba15a09" SourceId="1" SourceUrl="http://localhost:31105/srvFarmaWeb.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvFarmaWeb.wsdl" MetadataType="Wsdl" ID="7030c7b7-04e4-4cea-983e-78f49b70a992" SourceId="1" SourceUrl="http://localhost:31105/srvFarmaWeb.svc?wsdl" />
+    <MetadataFile FileName="srvFarmaWeb.disco" MetadataType="Disco" ID="9a3c6ee2-ef46-49c1-a3f2-cb2a62bbeabd" SourceId="1" SourceUrl="http://localhost:31105/srvFarmaWeb.svc?disco" />
+    <MetadataFile FileName="srvFarmaWeb1.xsd" MetadataType="Schema" ID="b92ec386-1760-4113-9586-c9845f2e0fd7" SourceId="1" SourceUrl="http://localhost:31105/srvFarmaWeb.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvFarmaWeb2.xsd" MetadataType="Schema" ID="db8f05a6-9fd0-4086-81c6-46a3e76f61b4" SourceId="1" SourceUrl="http://localhost:31105/srvFarmaWeb.svc?xsd=xsd2" />
+    <MetadataFile FileName="srvFarmaWeb3.xsd" MetadataType="Schema" ID="bff65088-319a-4b64-9fbc-9f093033dc2f" SourceId="1" SourceUrl="http://localhost:31105/srvFarmaWeb.svc?xsd=xsd4" />
+    <MetadataFile FileName="srvFarmaWeb4.xsd" MetadataType="Schema" ID="2c26b7a1-f36f-4138-afb9-928b211f9291" SourceId="1" SourceUrl="http://localhost:31105/srvFarmaWeb.svc?xsd=xsd5" />
+    <MetadataFile FileName="srvFarmaWeb5.xsd" MetadataType="Schema" ID="fabb6cf1-218e-4532-961f-24b186a51481" SourceId="1" SourceUrl="http://localhost:31105/srvFarmaWeb.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+wcfFarmaWeb
+</name>
+</assembly>
+<members>
+<member name="M:wcfFarmaWeb.srvFarmaWeb.GetTblTipoInfoXIdEstado(System.Int32)">
+	<summary>
+ METODO PARA CARGAR TIPO_INFORMACION DEL SISTEMA POR ID ESTADO
+ </summary>
+	<param name="parIdEstado"> ESTADO DEL REGISTRO</param>
+	<remarks></remarks>
+</member><member name="M:wcfFarmaWeb.srvFarmaWeb.GuardarInfoParamMedica(dllFarmaWeb.Medicamentos.clMedInfoParamMedica)">
+	<summary>
+ METODO PARA GUARDAR INFORMACION PARAMETRICA DE MODULO MEDICAMENTOS
+ </summary>
+	<remarks></remarks>
+</member><member name="M:wcfFarmaWeb.srvFarmaWeb.CargarInfoParamMedicaXId(System.Int32)">
+	<summary>
+ METODO PARA CARGAR INFORMACION PARAMETRICA POR ID
+ </summary>
+	<param name="parIdInfoPMed">ID REGISTRO PARA REALIZAR LA BUSQUEDA</param>
+	<returns>OBJETO DE INFO_PARAMETRICA</returns>
+	<remarks></remarks>
+</member><member name="M:wcfFarmaWeb.srvFarmaWeb.GetTblEstado">
+	<summary>
+ METODO PARA CARGAR LOS ESTADOS EXISTENTES EN EL SISTEMA
+ </summary>
+	<returns>TABLA DE ESTADOS DEL SISTEMA</returns>
+	<remarks></remarks>
+</member><member name="M:wcfFarmaWeb.srvFarmaWeb.GetTblInfoParamMedXIdTipoInfo(System.Int32,System.Int32)">
+	<summary>
+ METODO PARA CAGAR INFORMACION PARAMETRICA PO ID_TIPO_INFO
+ </summary>
+	<param name="parIdTipoInfo">IDENTIFICADOR DEL TIPO DE INFORMACION A BUSCAR</param>
+	<returns>TABLA CON INFORMACION PARAMETRICA DE MEDICAMENTOS</returns>
+	<remarks></remarks>
+</member><member name="M:wcfFarmaWeb.srvFarmaWeb.GetTblMedicamentoXStrNom(System.String,System.Int32)">
+	<summary>
+ METODO PARA CARGAR TABLA DE MEDICAMENTOS POR NOMBRE DE MEDICAMENTO DE CONSULTA
+ </summary>
+	<param name="parStrNombre">NOMBRE DEL MEDICAMENTO</param>
+	<param name="parIdUsuario">USUARIO DROGUERIA QUE REALIZA LA CONSULTA</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:wcfFarmaWeb.srvFarmaWeb.CargarInfoMedciamentoXIdMed(System.Int32)">
+	<summary>
+ METODO PARA CARGAR INFORMACION DE MEDICAMENTO POR ID_MEDICAMENTO
+ </summary>
+	<param name="parIdMedicamento">IDENTIFICADOR DEL MEDICAMENTO</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:wcfFarmaWeb.srvFarmaWeb.GuardarInfoPresentacionMed(dllFarmaWeb.Medicamentos.clMedPresentacionMed)">
+	<summary>
+ METODO PARA GUARDAR INFORMACION DE PRESENTACION MEDICAMENTO
+ </summary>
+	<param name="parObjPresentacionMed">OBJETO PRESENTACION MEDICAMENTO A GUARDAR</param>
+	<remarks></remarks>
+</member><member name="M:wcfFarmaWeb.srvFarmaWeb.CargarInfoPresentacionMedXIdPMed(System.Int32)">
+	<summary>
+ METODO PARA CARGAR INFORMACION DE PRESENTACION MEDICAMENTO POR ID
+ </summary>
+	<param name="parIdPresenMed">IDENTIFICADOR DEL OBJETO</param>
+	<remarks></remarks>
+</member><member name="M:wcfFarmaWeb.srvFarmaWeb.GetTblPresentacionMedXIdMed(System.Int32)">
+	<summary>
+ METODOD PARA CARGAR PRESENTACIONES DE MEDICAMENTO POR ID_MEDICAMENTO
+ </summary>
+	<param name="parIdMedicamento">IDENTIFICADOR DEL MEDICAMENTO</param>
+	<returns>TABLA CON OBJETOS DE PRESENTACION MEDICAMENTO</returns>
+	<remarks></remarks>
+</member><member name="P:wcfFarmaWeb.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:wcfFarmaWeb.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:wcfFarmaWeb.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

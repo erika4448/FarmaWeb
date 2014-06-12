@@ -1,0 +1,237 @@
+﻿body {
+    background-color: #E2E2E2;
+}
+
+#header {
+    background-position: left top;
+    width: 101%;
+    background-image: url('~/Images/imBackgroundHeader.jpg');
+    background-repeat: repeat-x;
+    margin-left: -10px;
+    margin-top: -8px;
+}
+
+    #header .ImMedical {
+        background-image: url('~/Images/imBgHeader.jpg');
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 354px;
+        height: 142px;
+    }
+
+#content {
+    background-color: #FFFFFF;
+    border-style: solid;
+    /*border-color: #D2D2D2;*/
+    border-color: #FFFFFF;
+    border-width: 2px;
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    -webkit-box-shadow: -1px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: -1px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: -1px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    width: 90%;
+}
+
+form {
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: #477DC5;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #477DC5;
+    height: 30px;
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+
+input[type="text"], input[type="password"], select, textarea {
+    font-size: 14px;
+    font-family: calibri;
+    color: #626262;
+    border: 1px solid #477DC5;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/*GRILLAS***************************/
+
+
+.gvGeneral {
+    border-color: #CFE1EE;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+    .gvGeneral tr:hover {
+        background: #DDEEF9;
+        -o-transition: all 0.1s ease-in-out;
+        -webkit-transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        -ms-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .gvGeneral td {
+        padding: 6px;
+        text-align: left;
+        border-style: solid none solid solid;
+        border-top-color: #AACFEA;
+        border-left-color: #AACFEA;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-bottom-color: #AACFEA;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        color: #626262;
+    }
+
+        .gvGeneral td a {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10pt;
+            color: #626262;
+        }
+
+            .gvGeneral td a:hover {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 10pt;
+                color: #626262;
+            }
+
+    .gvGeneral th {
+        border-left: 1px solid #fff;
+        border-top: 1px solid #fff;
+    }
+
+    .gvGeneral th {
+        background-color: #477DC5;
+        -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+        -moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+        box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+        border-top: none;
+        text-shadow: 0 1px 0 rgba(255,255,255,.5);
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: bold;
+        font-variant: normal;
+        text-transform: capitalize;
+        text-align: center;
+        background-repeat: repeat;
+    }
+
+        .gvGeneral th a {
+            font-weight: bold;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+            .gvGeneral th a:hover {
+                font-weight: bold;
+                color: #ffffff;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+        .gvGeneral th:first-child {
+            -moz-border-radius: 6px 0 0 0;
+            -webkit-border-radius: 6px 0 0 0;
+            border-radius: 6px 0 0 0;
+        }
+
+        .gvGeneral th:last-child {
+            -moz-border-radius: 0 6px 0 0;
+            -webkit-border-radius: 0 6px 0 0;
+            border-radius: 0 6px 0 0;
+        }
+
+    .gvGeneral tr:last-child td:first-child td:last-child {
+        text-align: left;
+        background-color: #F7FBFD;
+        -moz-border-radius: 0 0 6px 6px;
+        -webkit-border-radius: 0 0 6px 6px;
+        border-radius: 0 0 6px 6px;
+        height: 5px;
+    }
+
+/*.gvGeneral th:only-child {
+        -moz-border-radius: 6px 6px 0 0;
+        -webkit-border-radius: 6px 6px 0 0;
+        border-radius: 6px 6px 0 0;
+    }
+
+    .gvGeneral tr:last-child td:first-child {
+        -moz-border-radius: 0 0 0 6px;
+        -webkit-border-radius: 0 0 0 6px;
+        border-radius: 0 0 0 6px;
+    }
+
+    .gvGeneral tr:last-child {
+        border-style: none;
+        -moz-border-radius: 0 0 6px 0;
+        -webkit-border-radius: 0 0 6px 0;
+        border-radius: 0 0 6px 0;
+    }
+
+    .gvGeneral td:last-child {
+        border-left: 1px solid #F3AA4A;
+        border-top: 1px solid #F3AA4A;
+        padding: 4px;
+        text-align: left;
+        border-style: solid none none solid;
+        border-top-color: #AACFEA;
+        border-left-color: #AACFEA;
+    }*/
+/*************************************/
+
+.pnlGeneral {
+    background-color: #E2E2E2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.lblTituloGral {
+     font-family: calibri;
+    font-size: 18px;
+    font-weight: bold;
+    color: #477DC5;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/dllFarmaWeb.Medicamentos" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/dllFarmaWeb.Medicamentos" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:31105/srvFarmaWeb.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/dllFarmaWeb.Comun" />
+  <xs:complexType name="clMedInfoParamMedica">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/dllFarmaWeb.Comun" base="q1:clBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="mipmIdEstado" type="xs:int" />
+          <xs:element minOccurs="0" name="mipmIdInfoPMed" type="xs:int" />
+          <xs:element minOccurs="0" name="mipmIdTipoInfo" type="xs:int" />
+          <xs:element minOccurs="0" name="mipmValor" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="clMedInfoParamMedica" nillable="true" type="tns:clMedInfoParamMedica" />
+  <xs:complexType name="clMedMedicamento">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/dllFarmaWeb.Comun" base="q2:clBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="mipmFFarmIdInfoPMed" type="xs:int" />
+          <xs:element minOccurs="0" name="mipmIdEstado" type="xs:int" />
+          <xs:element minOccurs="0" name="mipmRegistroSani" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mipmTConcIdInfoPMed" type="xs:int" />
+          <xs:element minOccurs="0" name="mipmTMedIdInfoPMed" type="xs:int" />
+          <xs:element minOccurs="0" name="mipmViaAdIdInfoPMed" type="xs:int" />
+          <xs:element minOccurs="0" name="mipmVidaUtil" type="xs:int" />
+          <xs:element minOccurs="0" name="mmedCodigoCUM" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mmedDrogIdUsuario" type="xs:int" />
+          <xs:element minOccurs="0" name="mmedIdMedicamento" type="xs:int" />
+          <xs:element minOccurs="0" name="mmedLaborIdInfoPMed" type="xs:int" />
+          <xs:element minOccurs="0" name="mmedNombre" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="clMedMedicamento" nillable="true" type="tns:clMedMedicamento" />
+</xs:schema>

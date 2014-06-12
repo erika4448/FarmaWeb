@@ -1,0 +1,100 @@
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.dll.config
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.dll
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.pdb
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.xml
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\dllFarmaWeb.dll
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.ServiceLocation.dll
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.dll
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.Interception.dll
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\dllFarmaWeb.pdb
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\dllFarmaWeb.xml
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.ServiceLocation.pdb
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.pdb
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.Interception.pdb
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.vbprojResolveAssemblyReference.cache
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.Resources.resources
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.vbproj.GenerateResource.Cache
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.dll
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.xml
+E:\OTROS\WORKS\FARMAWEB\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.pdb
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.dll.config
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.dll
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.pdb
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.xml
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\dllFarmaWeb.dll
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.ServiceLocation.dll
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.dll
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.Interception.dll
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\dllFarmaWeb.pdb
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\dllFarmaWeb.xml
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.ServiceLocation.pdb
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.pdb
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.Interception.pdb
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.vbprojResolveAssemblyReference.cache
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.Resources.resources
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.vbproj.GenerateResource.Cache
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.dll
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.xml
+E:\DCTOS ERIKA\FARMAWEB\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.pdb
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.dll.config
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.dll
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.pdb
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.xml
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\dllFarmaWeb.dll
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.dll
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\dllFarmaWeb.pdb
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\dllFarmaWeb.xml
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.pdb
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.Interception.pdb
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.vbprojResolveAssemblyReference.cache
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.Resources.resources
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.vbproj.GenerateResource.Cache
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.dll
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.xml
+C:\Users\erika\Desktop\FARMA_WEB_20140610\FARMA_WEB_20140610\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.pdb
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.dll.config
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.dll
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.pdb
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\wcfFarmaWeb.xml
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\dllFarmaWeb.dll
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.dll
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\dllFarmaWeb.pdb
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\dllFarmaWeb.xml
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.pdb
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\bin\Microsoft.Practices.Unity.Interception.pdb
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.Resources.resources
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.dll
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.xml
+C:\Users\Administrator\Desktop\FARMA_WEB_20140611\FARMA_WEB_20140611\wFarmaWeb\wcfFarmaWeb\obj\Debug\wcfFarmaWeb.pdb

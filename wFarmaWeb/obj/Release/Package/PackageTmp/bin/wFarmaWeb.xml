@@ -1,0 +1,513 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+wFarmaWeb
+</name>
+</assembly>
+<members>
+<member name="F:wFarmaWeb.PagMaestra.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.frmMenu.hlkAdminTipoInfo">
+	<summary>
+hlkAdminTipoInfo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.frmMenu.hlkAdminMedica">
+	<summary>
+hlkAdminMedica control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:wFarmaWeb.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:wFarmaWeb.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:wFarmaWeb.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:wFarmaWeb.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:wFarmaWeb.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:wFarmaWeb.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.upnlAdminInfoParam">
+	<summary>
+upnlAdminInfoParam control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.pnlTIpoInfo">
+	<summary>
+pnlTIpoInfo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.lblTipoInfo">
+	<summary>
+lblTipoInfo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.ddlTipoInfo">
+	<summary>
+ddlTipoInfo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.pnlGvInfoParam">
+	<summary>
+pnlGvInfoParam control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.gvInfoParam">
+	<summary>
+gvInfoParam control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.odsInfoParam">
+	<summary>
+odsInfoParam control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.btnNuevo">
+	<summary>
+btnNuevo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.pnlInfoParamMed">
+	<summary>
+pnlInfoParamMed control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.lblNombre">
+	<summary>
+lblNombre control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.lblEstado">
+	<summary>
+lblEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.txtNombre">
+	<summary>
+txtNombre control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.ddlEstado">
+	<summary>
+ddlEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.btnGuardar">
+	<summary>
+btnGuardar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.AdminInfoParamMed.btnCerrar">
+	<summary>
+btnCerrar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:wFarmaWeb.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:wFarmaWeb.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:wFarmaWeb.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:wFarmaWeb.mstFarmaWeb.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.mstFarmaWeb.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.mstFarmaWeb.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.mstFarmaWeb.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.pnlBuscaMedica">
+	<summary>
+pnlBuscaMedica control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.lblNomMedicaBus">
+	<summary>
+lblNomMedicaBus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.txtMedicaBus">
+	<summary>
+txtMedicaBus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.btnBuscar">
+	<summary>
+btnBuscar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.pnlGvResultados">
+	<summary>
+pnlGvResultados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.gvMedicamentos">
+	<summary>
+gvMedicamentos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.btnNuevo">
+	<summary>
+btnNuevo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.pnlInfoMedicamentos">
+	<summary>
+pnlInfoMedicamentos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.lblCodCUM">
+	<summary>
+lblCodCUM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.lblNombre">
+	<summary>
+lblNombre control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.txtCodCUM">
+	<summary>
+txtCodCUM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.txtNombre">
+	<summary>
+txtNombre control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.lblEntidad">
+	<summary>
+lblEntidad control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.lblVidaUtil">
+	<summary>
+lblVidaUtil control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.ddlEntidad">
+	<summary>
+ddlEntidad control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.txtVidaUtil">
+	<summary>
+txtVidaUtil control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.txtVidaUtil_FilteredTextBoxExtender">
+	<summary>
+txtVidaUtil_FilteredTextBoxExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.lblRegSanita">
+	<summary>
+lblRegSanita control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.lblFormaFarma">
+	<summary>
+lblFormaFarma control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.txtRegSanita">
+	<summary>
+txtRegSanita control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.ddlFormaFarma">
+	<summary>
+ddlFormaFarma control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.lblTipoConcentra">
+	<summary>
+lblTipoConcentra control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.lblViaAdmin">
+	<summary>
+lblViaAdmin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.ddlTipoConcentra">
+	<summary>
+ddlTipoConcentra control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.ddlViaAdmin">
+	<summary>
+ddlViaAdmin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.lblTipoMedica">
+	<summary>
+lblTipoMedica control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.lblEstado">
+	<summary>
+lblEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.ddlTipoMedica">
+	<summary>
+ddlTipoMedica control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.ddlEstado">
+	<summary>
+ddlEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.btnGuardar">
+	<summary>
+btnGuardar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:wFarmaWeb.medInfoMedicamentos.btnCerrar">
+	<summary>
+btnCerrar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:wFarmaWeb.medInfoMedicamentos.pBoolIniPagina">
+	<summary>
+ PROPIEDAD PARA LA INICIALIZACION DE LA PAGINA
+ </summary>
+	<value>BOOLEANO INDICADO SI SE DEBE O NO INICIALIZAR</value>
+	<remarks></remarks>
+</member><member name="T:wFarmaWeb.medInfoMedicamentos.EnmAccion">
+	<summary>
+ ENUMERACION PARA EL CONTROL DE ACCIONES QUE SE PUEDEN REALIZAR EN LA PAGINA
+ </summary>
+	<remarks></remarks>
+</member><member name="P:wFarmaWeb.medInfoMedicamentos.pVisualizaXAccion">
+	<summary>
+ PROPIEDAD PARA EL MANEJO DE LA VISUALIZACION DE LA PAGINA
+ </summary>
+	<value>VALOR DE TIPO ENUMERACION QUE INDICA QUE VISUALIZACION DEBE CARGARSE DE ACUERDO A LA ACCION REALIZADA POR EL USUAIRO</value>
+	<remarks></remarks>
+</member><member name="P:wFarmaWeb.medInfoMedicamentos.pIdMedicamento">
+	<summary>
+ PROPIEDAD PARA EL ALMACENAMIENTO DEL IDENTIFICADOR DE MEDICAMENTO QUE SE MANIPULA
+ </summary>
+	<value>ENTERO</value>
+	<returns>ENTERO</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
