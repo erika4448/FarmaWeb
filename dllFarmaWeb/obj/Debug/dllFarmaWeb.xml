@@ -31,31 +31,6 @@ dllFarmaWeb
 	<param name="parIdTipoInfo">IDENTIFICADOR DEL TIPO DE INFORMACION A BUSCAR</param>
 	<returns>TABLA CON INFORMACION PARAMETRICA DE MEDICAMENTOS</returns>
 	<remarks></remarks>
-</member><member name="M:dllFarmaWeb.Medicamentos.clMedPresentacionMed.CargarDrLector(System.Data.IDataReader)">
-	<summary>
- METODO PARA CARGAR INFORMACION DEL LECTOR EN LAS VARIABLES DEL OBJETO
- </summary>
-	<param name="parDrLector">OBJETO LECTOR</param>
-	<remarks></remarks>
-</member><member name="M:dllFarmaWeb.Medicamentos.clMedPresentacionMed.GuardarInfoPresentacionMed(System.Data.Common.DbTransaction)">
-	<summary>
- METODO PARA GUARDAR INFORMACION DE PRESENTACION MEDICAMENTO
- </summary>
-	<param name="parObjTrans">OBJETO DE CONTROL DE TRANSACCION</param>
-	<remarks></remarks>
-</member><member name="M:dllFarmaWeb.Medicamentos.clMedPresentacionMed.CargarInfoPresentacionMedXIdPMed(System.Int32)">
-	<summary>
- METODO PARA CARGAR INFORMACION DE PRESENTACION MEDICAMENTO POR ID
- </summary>
-	<param name="parIdPresenMed">IDENTIFICADOR DEL OBJETO</param>
-	<remarks></remarks>
-</member><member name="M:dllFarmaWeb.Medicamentos.clMedPresentacionMed.GetTblPresentacionMedXIdMed(System.Int32)">
-	<summary>
- METODOD PARA CARGAR PRESENTACIONES DE MEDICAMENTO POR ID_MEDICAMENTO
- </summary>
-	<param name="parIdMedicamento">IDENTIFICADOR DEL MEDICAMENTO</param>
-	<returns>TABLA CON OBJETOS DE PRESENTACION MEDICAMENTO</returns>
-	<remarks></remarks>
 </member><member name="M:dllFarmaWeb.Medicamentos.clMedMedicamento.CargarDrLector(System.Data.IDataReader)">
 	<summary>
  METODO PARA CARGAR EL OBJETO LECTOR EN LAS VARIABLES DEL OBJETO
@@ -95,6 +70,31 @@ dllFarmaWeb
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedPresentacionMed.CargarDrLector(System.Data.IDataReader)">
+	<summary>
+ METODO PARA CARGAR INFORMACION DEL LECTOR EN LAS VARIABLES DEL OBJETO
+ </summary>
+	<param name="parDrLector">OBJETO LECTOR</param>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedPresentacionMed.GuardarInfoPresentacionMed(System.Data.Common.DbTransaction)">
+	<summary>
+ METODO PARA GUARDAR INFORMACION DE PRESENTACION MEDICAMENTO
+ </summary>
+	<param name="parObjTrans">OBJETO DE CONTROL DE TRANSACCION</param>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedPresentacionMed.CargarInfoPresentacionMedXIdPMed(System.Int32)">
+	<summary>
+ METODO PARA CARGAR INFORMACION DE PRESENTACION MEDICAMENTO POR ID
+ </summary>
+	<param name="parIdPresenMed">IDENTIFICADOR DEL OBJETO</param>
+	<remarks></remarks>
+</member><member name="M:dllFarmaWeb.Medicamentos.clMedPresentacionMed.GetTblPresentacionMedXIdMed(System.Int32)">
+	<summary>
+ METODOD PARA CARGAR PRESENTACIONES DE MEDICAMENTO POR ID_MEDICAMENTO
+ </summary>
+	<param name="parIdMedicamento">IDENTIFICADOR DEL MEDICAMENTO</param>
+	<returns>TABLA CON OBJETOS DE PRESENTACION MEDICAMENTO</returns>
+	<remarks></remarks>
 </member>
 </members>
 </doc>
